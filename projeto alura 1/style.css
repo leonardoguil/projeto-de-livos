@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #eb7ba0;
+    color: #333;
+}
+
+
+header {
+    background-color: #6e233c;
+    color: white;
+    padding: 10px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.container {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.books-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.book-card {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.book-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.book-card h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.book-card p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.author-card {
+    display: flex;
+    border-radius: 5%;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.author-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.author-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.author-info p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+footer {
+    background-color: #6e233c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
